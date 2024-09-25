@@ -28,7 +28,7 @@ public class PemilihanSwitch03 {
             hasil = angka1 / angka2;
             break;
             default:
-            System.out.println("Masukkan operator yang benar !");
+            System.out.println("Operator yang anda masukkan salah !");
         }
        
     sc.close();
