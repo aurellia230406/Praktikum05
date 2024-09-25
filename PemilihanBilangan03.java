@@ -7,14 +7,7 @@ public class PemilihanBilangan03 {
         System.out.print("Masukkan sebuah angka: ");
         int angka = Input.nextInt();
 
-        if (angka % 2 == 0)
-        {
-            System.out.println("Angka " + angka + " termasuk bilangan genap");
+            System.out.println((angka % 2 == 0) ? "Angka " + angka + "termasuk bilangan genap" : "Angka " + angka + 
+            " termasuk bilangan ganjil");
         }
-        else
-        {
-            System.out.println("Angka " + angka + " termasuk bilangan ganjil");
-        }
-    
     }
-}
